@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!--
     Copyright (c) 2018, The LineageOS Project
 
@@ -13,21 +14,12 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.lineageos.overlay.accent.blue"
-    android:versionCode="1"
-    android:versionName="1.0">
-
-    <overlay
-        android:targetPackage="android"
-        android:priority="1" />
-
-    <application
-        android:hasCode="false"
-        android:label="@*lineageos.platform:string/accent_blue">
-
-        <meta-data
-            android:name="lineage_berry_accent_preview"
-            android:value="#4182EF" />
-    </application>
-</manifest>
+<resources>
+    <color name="accent_device_default_700">#ffbf00</color>
+    <color name="accent_device_default_dark">#ffbf00</color>
+    <color name="accent_device_default_light">#ffbf00</color>
+    <color name="material_deep_teal_200">#ffbf00</color>
+    <color name="material_deep_teal_500">#ffbf00</color>
+    <color name="notification_icon_bg_color">#ffbf00</color>
+    <color name="system_notification_accent_color">#ffbf00</color>
+</resources>
